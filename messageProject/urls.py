@@ -18,6 +18,7 @@ from django.urls import path
 from message import views
 urlpatterns = [
     path('',views.index),
-    path('<int:rnumber>/<str:str_key>/',views.decrypt),
+    path('<int:rnumber>/<str:str_key>/',views.open),
+    path('decrypt/<int:rnumber>/<str:str_key>/',views.decrypt),
     path('admin/', admin.site.urls),
 ]
