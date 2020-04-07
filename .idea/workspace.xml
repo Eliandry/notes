@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58a2ded0-1b90-40f8-9e5b-dae750520297" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/message/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messageProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/messageProject/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/decrypt.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/decrypt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/error.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/oops.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/oops.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/over.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/over.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

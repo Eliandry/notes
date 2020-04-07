@@ -6,7 +6,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <meta charset="utf-8">
-    <title>open</title>
+
+    <title>anon</title>
+
     <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/cover/">
     <link href="/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <style>
@@ -28,31 +30,8 @@
     </style>
     <link href="cover.css" rel="stylesheet">
 <body class="text-center">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="masthead mb-auto">
-    <div class="inner">
-      <h3 class="masthead-brand">Anonymous</h3>
-      <nav class="nav nav-masthead justify-content-center">
-        <a class="btn btn-first" href="#">Dreams</a>
-        <a class="btn btn-first" href="#">Features</a>
-        <a class="btn btn-first" href="#">Documents</a>
-      </nav>
-    </div>
-  </header>
-
-  <main role="main" class="inner cover mt-5">
-    <h1 class="cover-heading">Новое сообщение</h1>
-    <p class="lead">Вам отправили зашифрованное сообщение.</p>
-      <p class="lead">После прочтения сообщение удалится и его нельзя будет востановить</p>
-      <form  method="POST">
-        {% csrf_token %}
-      <input type="submit" class="btn btn-lg btn-secondary" value="Расшифровать">
-      </form>
-  </main>
-
-</div>
-<svg class="bi bi-check" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z" clip-rule="evenodd"/>
-</svg>
+    {% block content %}
+	{% endblock %}
 </body>
+
 </html>
